@@ -218,7 +218,30 @@
     </license>
   </licenses>
 
+  <distributionManagement>
+    <repository>
+        <id>dev-azure-com-daikin-itc-test_artifacts_feed</id>
+        <url>https://pkgs.dev.azure.com/daikin-itc/_packaging/test_artifacts_feed/maven/v1</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+  </distributionManagement>
+    
   <repositories>
+    <repository>
+        <id>dev-azure-com-daikin-itc-test_artifacts_feed</id>
+        <url>https://pkgs.dev.azure.com/daikin-itc/_packaging/test_artifacts_feed/maven/v1</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
     <repository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
