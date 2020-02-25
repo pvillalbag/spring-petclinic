@@ -1,5 +1,6 @@
 mysql:
-  line 2 modified
+  line 2 modified again
+  new line 3 
   ports:
     - "3306:3306"
   environment:
